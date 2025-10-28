@@ -45,3 +45,8 @@ Each reading is timestamped and stored in the database for historical tracking a
 
 ### Future Improvements:
 Front-end dashboard can be used more efficiently to let a particular user to use mutliple devices and view all thier real-time data along with ability to set thresh-hold values and set notification alerts.
+
+## Aurdino-Codes:
+we started the project with the aurdino part so we went ahead with the aurdino coding.
+Link to Branch:
+https://github.com/Saicharan011206/esp32-environment-monitor/tree/arduino-codes
