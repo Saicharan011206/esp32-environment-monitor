@@ -50,3 +50,5 @@ Front-end dashboard can be used more efficiently to let a particular user to use
 we started the project with the aurdino part so we went ahead with the aurdino coding.
 Link to Branch:
 https://github.com/Saicharan011206/esp32-environment-monitor/tree/arduino-codes
+## Serial Transmission/Manual:
+If your esp32 console refuses to connect to your wifi the simple codes mentioned in this branch: https://github.com/Saicharan011206/esp32-environment-monitor.git can be used to upload values via python and json.
