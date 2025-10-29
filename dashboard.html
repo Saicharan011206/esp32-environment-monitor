@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sky Pulse Dashboard</title>
+  <!-- Orbitron for royal/tech font, Poppins fallback -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dashboard.css" />
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <main>
+    <div class="sky-title">SKY PULSE</div>
+    <div class="circle-stats">
+      <div class="stat-circle stat-blue">
+        <div class="circle-value" id="humidity">--%</div>
+        <div class="circle-label">Humidity</div>
+      </div>
+      <div class="stat-circle stat-orange">
+        <div class="circle-value" id="temperature">--°C</div>
+        <div class="circle-label">Temperature</div>
+      </div>
+      <div class="stat-circle stat-green">
+        <div class="circle-value" id="co2">-- ppm</div>
+        <div class="circle-label">CO₂ Levels</div>
+      </div>
+      <div class="stat-circle stat-purple">
+        <div class="circle-value" id="airQuality">--</div>
+        <div class="circle-label">Air Quality</div>
+      </div>
+      <div class="stat-circle stat-red">
+        <div class="circle-value" id="highTemp">--°C</div>
+        <div class="circle-label">High Temp (Today)</div>
+      </div>
+      <div class="stat-circle stat-cyan">
+        <div class="circle-value" id="avgAirQuality">--</div>
+        <div class="circle-label">Avg Air Quality</div>
+      </div>
+      <div class="stat-circle stat-teal">
+        <div class="circle-value" id="avgHumidity">--%</div>
+        <div class="circle-label">Avg Humidity</div>
+      </div>
+      <div class="stat-circle stat-yellow">
+        <div class="circle-value" id="avgCO2">-- ppm</div>
+        <div class="circle-label">Avg CO₂</div>
+      </div>
+    </div>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>

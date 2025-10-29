@@ -1,0 +1,102 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sky-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 7vw;
+  font-weight: 800;
+  letter-spacing: 14px;
+  word-spacing: 14px;
+  color: #fff;
+  text-shadow: 0 3px 32px #2a89c5, 0 7px 90px #1976d2, 0 1px 1px #4499e6;
+  margin-bottom: 38px;
+  margin-top: 0;
+  text-align: center;
+}
+.circle-stats {
+  width: 90vw;
+  max-width: 1350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px 48px;
+}
+.stat-circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.19);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', monospace;
+  font-size: 2.1rem;
+  font-weight: 700;
+  box-shadow: 0 0 40px #1b499555, 0 7px 32px 0 #0003;
+  border: 5.5px solid transparent;
+  transition: border 0.3s, transform 0.25s;
+  color: #232e3a;
+}
+.stat-circle:hover {
+  border-color: #0af6f6;
+  transform: scale(1.07) rotate(-2deg);
+}
+.circle-label {
+  display: block;
+  margin-top: 9px;
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #113688;
+  letter-spacing: 1.3px;
+  text-shadow: 0 0 14px #fff9, 0 0 4px #4e4e4e22;
+}
+.stat-blue    { border-color: #47eaff; }
+.stat-orange  { border-color: #f6ba52; }
+.stat-green   { border-color: #3fd480; }
+.stat-purple  { border-color: #bb9dff; }
+.stat-red     { border-color: #fc3468; }
+.stat-cyan    { border-color: #18f0fb; }
+.stat-teal    { border-color: #66e0da; }
+.stat-yellow  { border-color: #f7e841; }
+
+@media (max-width: 1200px){
+  .stat-circle {
+    width: 120px; height: 120px;
+    font-size: 1.4rem;
+  }
+  .sky-title {
+    font-size: 3.8rem;
+  }
+  .circle-label { font-size: 0.98rem; }
+}
+@media (max-width: 750px){
+  .circle-stats { gap: 17px 10px; }
+  .stat-circle {
+    width: 90px; height: 90px;
+    font-size: 1rem;
+  }
+  .sky-title { font-size: 2.0rem;}
+  .circle-label { font-size: 0.8rem;}
+}
+
+
