@@ -52,3 +52,6 @@ Link to Branch:
 https://github.com/Saicharan011206/esp32-environment-monitor/tree/arduino-codes
 ## Serial Transmission/Manual:
 If your esp32 console refuses to connect to your wifi the simple codes mentioned in this branch: https://github.com/Saicharan011206/esp32-environment-monitor/tree/backend-uploading can be used to upload values via python and json.
+## Front-end Dashboard:
+The frontend of this project is designed using HTML,CSS and JavaScript to make it beginer friendly.
+Link to Branch: https://github.com/Saicharan011206/esp32-environment-monitor/tree/front-end
